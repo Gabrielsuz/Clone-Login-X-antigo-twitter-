@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+svg {
+    width: 8%;
+}
+
+#colum-x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#logo-cl {
+    display: grid;
+    justify-self: center;
+    align-items: center;
+}
+
+#logo-cl img {
+    width: 120%;
+}
+
+
+#a-login-cl {
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+#login-cl h1 {
+    font-size: 64px;
+}
+
+#login-cl h2 {
+    font-size: 32px;
+}
+
+#sub-cl {
+    display: grid;
+    max-width:35%;
+}
+
+#log-cl {
+    display: grid;
+    max-width:35%;
+    justify-content: center;
+}
+
+#log-cl a {
+    color: white;
+}
+
+#log-cl h2 {
+    color: rgb(229, 233, 234);
+    font-size: 18px;
+}
+
+#login-cl p {
+    color: rgb(127, 142, 146);
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+.atention {
+color: rgb(29, 155, 240);
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid rgb(83, 101, 113);
+    border-radius: 32px;
+    text-align: center;
+    margin: 8px;
+}
+
+.login:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid rgb(83, 101, 113);
+    background-color: rgba(141, 156, 167, 0.1);
+    border-radius: 32px;
+    text-align: center;
+    margin: 8px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 4px;
+    border-radius: 32px;
+    color: #000000;
+    background-color: white;
+    text-align: center;
+}
+
+.subscribe:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 4px;
+    border-radius: 32px;
+    color: #000000;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
