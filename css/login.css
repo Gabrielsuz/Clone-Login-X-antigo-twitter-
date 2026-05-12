@@ -1,0 +1,135 @@
+* {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#sub-or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 8px 0 8px 0;
+    font-size: 16px;
+}
+
+.or-decoration {
+    background-color: rgba(127, 142, 146, 0.4);
+    height: 1px;
+    width: 6.5vw;
+}
+
+.container-login {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    height: 75vh;
+    width: 25vw;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ct-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 15vw;
+}
+
+#sub-continue {
+    font-weight: 600;
+    padding: 6px 32px;
+}
+
+#sub-remember {
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(183, 223, 218, 0.4);
+    padding: 6px 32px;
+    font-weight: 600;
+}
+
+#sub-remember:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.08);;
+    border: 1px solid rgb(83, 101, 113);
+    padding: 6px 32px;
+    transition: all 0.1s linear;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 4px;
+    border-radius: 32px;
+    width: 12vw;
+    color: #000000;
+    background-color: white;
+    text-align: center;
+}
+
+.subscribe:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 46%;
+}
+
+#fm-email {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 8px;
+    padding: 18px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    width: 12vw;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    text-align: center;
+}
+
+.ct-options {
+    display: flex;
+    gap: 1.5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct-options p {
+     color: rgb(127, 142, 146);
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+.atention {
+color: rgb(29, 155, 240);
+}

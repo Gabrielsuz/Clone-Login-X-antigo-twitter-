@@ -134,3 +134,18 @@ color: rgb(29, 155, 240);
     background-color: rgb(228, 228, 228);
     text-align: center;
 }
+
+#sub-or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 8px 0 8px 0;
+    font-size: 16px;
+}
+
+#sub-or .or-decoration {
+    background-color: rgba(127, 142, 146, 0.4);
+    height: 1px;
+    width: 80%;
+}
