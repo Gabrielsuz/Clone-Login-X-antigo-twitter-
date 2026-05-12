@@ -34,12 +34,6 @@ Todas as referências visuais, marcas e identidades pertencem aos seus respectiv
 
 ---
 
-## 📷 Preview
-
-Adicione imagens do projeto nesta seção.
-
----
-
 ## 🛠️ Como Executar
 
 Clone o repositório:
@@ -55,17 +49,6 @@ cd Clone-Login-X-antigo-twitter-
 ```
 
 Abra o arquivo `index.html` em seu navegador.
-
----
-
-## 📂 Estrutura do Projeto
-
-```bash
-📦 Clone-Login-X-antigo-twitter-
- ┣ 📂 assets
- ┣ 📜 index.html
- ┗ 📜 style.css
-```
 
 ---
 
